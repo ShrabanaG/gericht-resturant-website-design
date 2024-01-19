@@ -1,0 +1,59 @@
+.gericht__menu-container {
+    background: var(--color-black);
+    flex-direction: column;
+}
+
+.gericht__menu-header {
+    text-align: center;
+}
+
+.gericht__menuItems-menu_heading {
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-size: 2.8rem;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+}
+
+.gericht__menuItems_image {
+    width: 410px;
+    margin: 0 2rem;
+}
+
+.gericht__menuItems_image img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 2000px) {
+    .gericht__menuItems_image {
+        width: 650px;
+    }
+
+    .gericht__menuItems_image img {
+        height: 920px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .gericht__menu-items_container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .gericht__menuItems_image {
+        margin: 3rem 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .gericht__menuItems_image {
+        width: 100%;
+    }
+
+    .gericht__menuItems-menu_heading {
+        font-size: 35px;
+        line-height: 48.5px;
+    }
+}

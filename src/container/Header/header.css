@@ -1,0 +1,35 @@
+.gericht__header-container {
+    background: var(--color-black);
+}
+
+/* .gericht__header-title_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.gericht__header-title_container h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-size: 5.5rem;
+    text-transform: capitalize;
+    letter-spacing: 0.04em;
+    line-height: 117px;
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .gericht__header-title_container h1 {
+        font-size: 70px;
+        line-height: 87px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gericht__header-title_container h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+}
